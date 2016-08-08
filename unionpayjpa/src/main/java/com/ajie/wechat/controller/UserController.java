@@ -2,6 +2,7 @@ package com.ajie.wechat.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -74,12 +75,13 @@ public class UserController {
 	@RequestMapping(value = "/test")
 	public ModelAndView test(ModelAndView mv) {
 		mv=new ModelAndView("WEB-INF/success");
+		mv.addObject("test", "ModelAndView");
 		System.out.println(123465);
 		return mv;
 	}
 	@RequestMapping(value = "/test2")
-	public String test2(ModelAndView mv) {
-		
+	public String test2(Model model) {
+		model.addAttribute("test", "Model");
 		return "WEB-INF/success";
 	}
 }
