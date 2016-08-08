@@ -3,7 +3,9 @@
 	xmlns="http://java.sun.com/xml/ns/javaee"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
  version="3.0">
+ <!-- 定义应用的名称。 -->
   <display-name>Archetype Created Web Application</display-name>
+  <!-- 设定web应用的环境参数(context) -->
   	<context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath*:applicationContext*.xml</param-value>
@@ -92,6 +94,10 @@
     <servlet-mapping>       
         <servlet-name>default</servlet-name>      
         <url-pattern>*.html</url-pattern>     
+    </servlet-mapping>  
+    <servlet-mapping>       
+        <servlet-name>default</servlet-name>      
+        <url-pattern>*.jsp</url-pattern>     
     </servlet-mapping>
     
     <!-- SpringMVC核心分发器 -->
