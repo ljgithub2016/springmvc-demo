@@ -28,11 +28,8 @@ public class UserController {
 
 	/**
 	 * 
-	 * @Title: saveUser 
-	 * @Description: 添加用户信息   post提交方式
-	 * @param user
-	 * @return  String    返回类型  
-	 * @throws
+	 * @Title: saveUser @Description: 添加用户信息 post提交方式 @param user @return String
+	 * 返回类型 @throws
 	 */
 	@RequestMapping(value = "/saveUser", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE
 			+ ";charset=UTF-8")
@@ -41,11 +38,8 @@ public class UserController {
 	}
 	/**
 	 * 
-	 * @Title: add 
-	 * @Description: 添加用户信息   get方式提交
-	 * @param account
-	 * @return  String    返回类型  
-	 * @throws
+	 * @Title: add @Description: 添加用户信息 get方式提交 @param account @return String
+	 * 返回类型 @throws
 	 */
 	@RequestMapping(value = "/saveUser/{account}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE
 			+ ";charset=UTF-8")
@@ -54,11 +48,7 @@ public class UserController {
 	}
 	/**
 	 * 
-	 * @Title: add 
-	 * @Description: 根据id查询用户信息
-	 * @param id
-	 * @return  User    返回类型  
-	 * @throws
+	 * @Title: add @Description: 根据id查询用户信息 @param id @return User 返回类型 @throws
 	 */
 	@RequestMapping(value = "/user/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE
 			+ ";charset=UTF-8")
@@ -67,14 +57,11 @@ public class UserController {
 	}
 	/**
 	 * 
-	 * @Title: test 
-	 * @Description: 测试
-	 * @return  String    返回类型  
-	 * @throws
+	 * @Title: test @Description: 测试 @return String 返回类型 @throws
 	 */
 	@RequestMapping(value = "/test")
 	public ModelAndView test(ModelAndView mv) {
-		mv=new ModelAndView("WEB-INF/success");
+		mv = new ModelAndView("WEB-INF/success");
 		mv.addObject("test", "ModelAndView");
 		System.out.println(123465);
 		return mv;
