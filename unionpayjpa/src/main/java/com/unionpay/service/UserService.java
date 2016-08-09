@@ -1,11 +1,13 @@
-package com.ajie.wechat.service;
+package com.unionpay.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.ajie.wechat.dao.UserDao;
-import com.ajie.wechat.model.User;
+import com.unionpay.dao.UserDao;
+import com.unionpay.model.User;
+
+
 /**
  * 
 * @ClassName: UserService

@@ -1,11 +1,13 @@
-package com.ajie.wechat.dao;
+package com.unionpay.dao;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.ajie.wechat.model.User;
+import com.unionpay.model.User;
+
+
 /**
  * 
  * @ClassName: UserDao

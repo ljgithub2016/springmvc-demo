@@ -1,4 +1,4 @@
-package com.ajie.wechat.model;
+package com.unionpay.model;
 
 import java.io.Serializable;
 

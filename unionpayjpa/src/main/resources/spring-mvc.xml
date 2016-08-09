@@ -13,9 +13,9 @@
 	<!-- 启用SpringMVC的注解功能,它会自动注册HandlerMapping、HandlerAdapter、ExceptionResolver的相关实例 -->
 	<mvc:annotation-driven />
 	<!-- 自动扫描dao和service包(自动注入) -->
-	<!-- <context:component-scan base-package="com.ajie.wechat.dao" /> -->
+	<!-- <context:component-scan base-package="com.unionpay.dao" /> -->
 	<!-- SpringMVC的扫描范围 启动组件扫描，自动扫描@Controller和@Service组件，该组件由SpringMVC配置文件扫描 -->
-	<context:component-scan base-package="com.ajie.wechat.**"
+	<context:component-scan base-package="com.unionpay.**"
 		use-default-filters="false">
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Service" /> 
