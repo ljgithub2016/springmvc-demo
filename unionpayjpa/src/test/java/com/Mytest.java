@@ -6,10 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.unionpay.model.User;
-import com.unionpay.service.UserService;
-
-
+import com.ajie.wechat.model.User;
+import com.ajie.wechat.service.UserService;
 
 
 @ContextConfiguration(locations= {"classpath:spring-mvc.xml","classpath:applicationContext.xml"})
