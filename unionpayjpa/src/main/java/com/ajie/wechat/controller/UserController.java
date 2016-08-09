@@ -14,7 +14,6 @@ import com.ajie.wechat.model.User;
 import com.ajie.wechat.service.UserService;
 /**
  * 
- * 
  * @ClassName: UserController
  * @Description: user controller层
  * @author zuozuo
