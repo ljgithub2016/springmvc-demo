@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 /**
  * 
+ * 
 * @ClassName: User
 * @Description: user实体类 
 * @author zuozuo  
