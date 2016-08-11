@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
 import com.alibaba.fastjson.JSONObject;
 import com.unionpay.model.User;
 import com.unionpay.service.UserService;
