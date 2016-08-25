@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
 import com.unionpay.model.User;
 
 /**
@@ -13,6 +15,7 @@ import com.unionpay.model.User;
  * @author zuozuo
  * @date 2016年8月12日 下午4:16:25
  */
+@Repository
 public interface UserDao extends JpaRepository<User, Long> {
 
 	/**
