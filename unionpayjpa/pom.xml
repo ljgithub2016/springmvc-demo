@@ -168,7 +168,7 @@
 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
-			<version>1.2.2</version>
+			<version>1.4</version>
 		</dependency>
 		<!-- java数据库连接池(JDBC Pool)管理工具库 -->
 		<dependency>
@@ -228,7 +228,7 @@
 			<artifactId>commons-collections</artifactId>
 			<version>3.2.1</version>
 		</dependency>
-		<!-- Bean工具类类-->
+		<!-- Bean工具类类 -->
 		<dependency>
 			<groupId>commons-beanutils</groupId>
 			<artifactId>commons-beanutils</artifactId>
@@ -309,6 +309,18 @@
 			<artifactId>spring-data-jpa</artifactId>
 			<version>1.7.1.RELEASE</version>
 		</dependency>
+		<!-- redis配置 -->
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>2.7.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-pool2 -->
+		<!-- <dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-pool2</artifactId>
+			<version>2.0</version>
+		</dependency> -->
 	</dependencies>
 	<build>
 		<plugins>
